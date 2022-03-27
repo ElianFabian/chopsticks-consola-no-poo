@@ -46,7 +46,13 @@ cont1 = 0
 # indica la accion que se ha hecho
 accion = str()
 
-# acciones (Argumentos:[a, b: mano cualquiera del jugador principal y del secundario, respectivamente; n1, n2: manos del jugador principal; c1, c2: manos del jugador secundario; cont1, accion: es necesario que sea un argumento para poder modificarlo dentro de las funciones])
+
+# Argumentos:
+# a, b: mano cualquiera del jugador principal y del secundario, respectivamente
+# n1, n2: manos del jugador principal; c1, c2: manos del jugador secundario
+# cont1,accion: es necesario que sea un argumento para poder modificarlo dentro de las funciones
+
+# acciones
 def sumar(a, b): # suma el número del jugador que ataca al jugador atacado
     return a + b
 
